@@ -11,4 +11,15 @@
     <string name="barashsad">BarashSad</string>
     <string name="redprof">Редактировать профиль</string>
     <string name="actual">Актуальное из историй</string>
+    <string name="name">name</string>
+    <string name="вход">Вход</string>
+    <string name="ещенетаккаунта">Еще нет аккаунта?</string>
+    <string name="региструруйсяблин">Зарегистрируйтесь.</string>
+    <string name="параметрывхода">Электронный адрес или никнейм</string>
+    <string name="пароль">Пароль</string>
+    <string name="instagram">Instagram</string>
+    <string name="регистрация">Регистрация</string>
+    <string name="зарегистрироваться">Зарегистрироваться</string>
+    <string name="e_mail">E-mail</string>
+    <string name="введите_ваш_ник">Введите Ваш ник</string>
 </resources>
