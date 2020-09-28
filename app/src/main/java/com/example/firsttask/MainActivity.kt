@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         print(Child().age)
 
+        val userName = PreferenceAuthentication.getInstance(this)?.name
+
+        nickname.setText(userName)
+
         nickname = findViewById(R.id.nick)
         btnEditNick = findViewById(R.id.redprof)
 
