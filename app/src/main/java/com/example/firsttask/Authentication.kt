@@ -23,8 +23,8 @@ class Authentication : AppCompatActivity() {
             val userPass = PreferenceAuthentication.getInstance(this)?.pass
             val userEmail = PreferenceAuthentication.getInstance(this)?.email
 
-            val login = editTextTextPersonName.text.toString().trim()
-            val password = editTextTextPassword.text.toString().trim()
+            val login = editTextTextPersonName.toString().trim()
+            val password = editTextTextPassword.toString().trim()
 
             if ((login == userName || login == userEmail) && (password == userPass)) {
                 val intent = Intent(this, MainActivity::class.java)
